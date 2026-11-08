@@ -1,0 +1,295 @@
+{
+  "environment": {
+    "python": "3.13.18",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "cpus": 2
+  },
+  "kpa": [
+    {
+      "known_len": 10,
+      "success_rate": 0.0,
+      "mean_time_ms": 0.12456419000102413,
+      "mean_candidates": 30
+    },
+    {
+      "known_len": 16,
+      "success_rate": 0.0,
+      "mean_time_ms": 0.16984902000046986,
+      "mean_candidates": 30
+    },
+    {
+      "known_len": 20,
+      "success_rate": 0.28,
+      "mean_time_ms": 0.2584840999975313,
+      "mean_candidates": 24.72
+    },
+    {
+      "known_len": 24,
+      "success_rate": 0.57,
+      "mean_time_ms": 0.36478811999700156,
+      "mean_candidates": 20.36
+    },
+    {
+      "known_len": 30,
+      "success_rate": 0.61,
+      "mean_time_ms": 0.40722409999887077,
+      "mean_candidates": 19.29
+    },
+    {
+      "known_len": 36,
+      "success_rate": 0.86,
+      "mean_time_ms": 0.6664765600021383,
+      "mean_candidates": 14.98
+    },
+    {
+      "known_len": 40,
+      "success_rate": 0.99,
+      "mean_time_ms": 0.7420380799976556,
+      "mean_candidates": 13.3
+    },
+    {
+      "known_len": 50,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.815950470002349,
+      "mean_candidates": 13.32
+    },
+    {
+      "known_len": 60,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.6006964499994183,
+      "mean_candidates": 13.33
+    }
+  ],
+  "kpa_by_keylen": [
+    {
+      "key_len": 10,
+      "min_known_mean": 18.266666666666666,
+      "min_known_max": 24
+    },
+    {
+      "key_len": 11,
+      "min_known_mean": 30.566666666666666,
+      "min_known_max": 38
+    },
+    {
+      "key_len": 12,
+      "min_known_mean": 20.9,
+      "min_known_max": 30
+    },
+    {
+      "key_len": 13,
+      "min_known_mean": 35.06666666666667,
+      "min_known_max": 50
+    },
+    {
+      "key_len": 14,
+      "min_known_mean": 22.466666666666665,
+      "min_known_max": 28
+    },
+    {
+      "key_len": 15,
+      "min_known_mean": 38.63333333333333,
+      "min_known_max": 48
+    },
+    {
+      "key_len": 16,
+      "min_known_mean": 24.433333333333334,
+      "min_known_max": 30
+    },
+    {
+      "key_len": 20,
+      "min_known_mean": 28.9,
+      "min_known_max": 36
+    }
+  ],
+  "freq": [
+    {
+      "length": 100,
+      "success_rate": 0.0,
+      "mean_accuracy": 0.0735,
+      "mean_time_ms": 189.1599234250009,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 200,
+      "success_rate": 0.0,
+      "mean_accuracy": 0.10162500000000001,
+      "mean_time_ms": 208.2701055000001,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 300,
+      "success_rate": 0.125,
+      "mean_accuracy": 0.35791666666666666,
+      "mean_time_ms": 224.56723052499967,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 400,
+      "success_rate": 0.45,
+      "mean_accuracy": 0.6945,
+      "mean_time_ms": 245.43145397500012,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 600,
+      "success_rate": 0.65,
+      "mean_accuracy": 0.857375,
+      "mean_time_ms": 309.12511984999753,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 800,
+      "success_rate": 0.95,
+      "mean_accuracy": 0.9861875,
+      "mean_time_ms": 376.0882556750019,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 1000,
+      "success_rate": 0.95,
+      "mean_accuracy": 0.98715,
+      "mean_time_ms": 445.95664967499715,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 1500,
+      "success_rate": 0.95,
+      "mean_accuracy": 0.9809666666666667,
+      "mean_time_ms": 591.0774562249956,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 2000,
+      "success_rate": 0.975,
+      "mean_accuracy": 0.993975,
+      "mean_time_ms": 780.245885475,
+      "mean_evaluations": 10098
+    },
+    {
+      "length": 3000,
+      "success_rate": 1.0,
+      "mean_accuracy": 1.0,
+      "mean_time_ms": 1093.2607499499939,
+      "mean_evaluations": 10098
+    }
+  ],
+  "freq_by_keylen": [
+    {
+      "key_len": 10,
+      "success_rate": 0.9
+    },
+    {
+      "key_len": 13,
+      "success_rate": 0.9
+    },
+    {
+      "key_len": 16,
+      "success_rate": 0.8666666666666667
+    },
+    {
+      "key_len": 20,
+      "success_rate": 0.7666666666666667
+    }
+  ],
+  "shift": [
+    {
+      "length": 20,
+      "success_rate": 0.9,
+      "mean_time_ms": 0.1487253249905507
+    },
+    {
+      "length": 50,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.16526872500151057
+    },
+    {
+      "length": 100,
+      "success_rate": 0.975,
+      "mean_time_ms": 0.1862407250087017
+    },
+    {
+      "length": 200,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.24024504999999863
+    },
+    {
+      "length": 400,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.28003077498226503
+    },
+    {
+      "length": 1000,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.5052487499966674
+    }
+  ],
+  "speed": [
+    {
+      "length": 1000,
+      "vh_enc_ms": 0.22980999995070306,
+      "vh_dec_ms": 0.25860200003080536,
+      "shift_enc_ms": 0.15088600002854946,
+      "shift_dec_ms": 0.151644999959899
+    },
+    {
+      "length": 10000,
+      "vh_enc_ms": 2.1964610000395624,
+      "vh_dec_ms": 2.513037999960943,
+      "shift_enc_ms": 1.5350350000744584,
+      "shift_dec_ms": 1.4685610000242377
+    },
+    {
+      "length": 100000,
+      "vh_enc_ms": 23.129395000069053,
+      "vh_dec_ms": 25.64549499993518,
+      "shift_enc_ms": 14.685177999922416,
+      "shift_dec_ms": 14.835598999979993
+    },
+    {
+      "length": 1000000,
+      "vh_enc_ms": 246.1199920001036,
+      "vh_dec_ms": 280.08363799995095,
+      "shift_enc_ms": 154.63635300000078,
+      "shift_dec_ms": 161.98175900001388
+    }
+  ],
+  "kpa_by_length": [
+    {
+      "length": 100,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.26408823999995334
+    },
+    {
+      "length": 200,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.30807132000004955
+    },
+    {
+      "length": 400,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.37075227999991966
+    },
+    {
+      "length": 800,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.5175386400000548
+    },
+    {
+      "length": 1000,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.5505227800000334
+    },
+    {
+      "length": 2000,
+      "success_rate": 1.0,
+      "mean_time_ms": 0.8850972599999984
+    },
+    {
+      "length": 3000,
+      "success_rate": 1.0,
+      "mean_time_ms": 1.3802775000000445
+    }
+  ]
+}
